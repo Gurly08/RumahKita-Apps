@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "rumakita_app2",
     "short_name": "rumakita_app2",
+=======
+    "name": "todo_list",
+    "short_name": "todo_list",
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

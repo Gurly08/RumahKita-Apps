@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Rumakita App2</string>
+=======
+	<string>Todo List</string>
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>rumakita_app2</string>
+=======
+	<string>todo_list</string>
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

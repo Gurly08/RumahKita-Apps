@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # rumakita_app2
+=======
+# todo_list
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 A new Flutter project.
 

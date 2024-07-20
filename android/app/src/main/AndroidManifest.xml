@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="rumakita_app2"
+=======
+        android:label="todo_list"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

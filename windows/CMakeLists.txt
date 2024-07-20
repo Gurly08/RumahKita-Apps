@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(rumakita_app2 LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "rumakita_app2")
+=======
+project(todo_list LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "todo_list")
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

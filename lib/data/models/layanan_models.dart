@@ -14,5 +14,9 @@ class Layanan{
     this.color,
     this.jumlah,
   });
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066

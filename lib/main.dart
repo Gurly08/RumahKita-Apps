@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:rumakita_app2/presentation/page/splash.dart';
 // import 'package:rumakita_app2/presentation/page/ajukan_kegiatan.dart';
+=======
+import 'package:todo_list/presentation/pages/splash.dart';
+
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 void main() {
   runApp(const MyApp());
 }
@@ -14,6 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+<<<<<<< HEAD
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -33,6 +39,12 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Splash(),
+=======
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const Splash(), //tampilan di mulai pada splash
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
     );
   }
 }
@@ -40,6 +52,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
+<<<<<<< HEAD
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
@@ -49,6 +62,8 @@ class MyHomePage extends StatefulWidget {
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
 
+=======
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
   final String title;
 
   @override
@@ -60,17 +75,21 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
+<<<<<<< HEAD
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
+=======
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
       _counter++;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -104,6 +123,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
+=======
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
@@ -120,7 +147,11 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
+<<<<<<< HEAD
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+      ),
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
     );
   }
 }

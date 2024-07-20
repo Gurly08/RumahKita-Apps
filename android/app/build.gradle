@@ -23,9 +23,15 @@ if (flutterVersionName == null) {
 }
 
 android {
+<<<<<<< HEAD
     namespace "com.example.rumakita_app2"
     compileSdk flutter.compileSdkVersion
     ndkVersion "25.1.8937393"
+=======
+    namespace "com.example.todo_list"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -42,7 +48,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.example.rumakita_app2"
+=======
+        applicationId "com.example.todo_list"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion

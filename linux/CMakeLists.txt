@@ -4,10 +4,17 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
+<<<<<<< HEAD
 set(BINARY_NAME "rumakita_app2")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.rumakita_app2")
+=======
+set(BINARY_NAME "todo_list")
+# The unique GTK application identifier for this application. See:
+# https://wiki.gnome.org/HowDoI/ChooseApplicationID
+set(APPLICATION_ID "com.example.todo_list")
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

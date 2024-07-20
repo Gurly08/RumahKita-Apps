@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: rumakita_app2
+=======
+name: todo_list
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +23,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+<<<<<<< HEAD
   sdk: '>=3.3.0 <4.0.0'
+=======
+  sdk: '>=3.3.1 <4.0.0'
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,7 +43,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+<<<<<<< HEAD
   google_fonts: ^6.2.0
+=======
+  google_fonts: ^6.2.1
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
   intl: ^0.19.0
   awesome_dialog: ^3.2.1
 

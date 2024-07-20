@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "rumakita_app2" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "rumakita_app2" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "rumakita_app2.exe" "\0"
             VALUE "ProductName", "rumakita_app2" "\0"
+=======
+            VALUE "FileDescription", "todo_list" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "todo_list" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "todo_list.exe" "\0"
+            VALUE "ProductName", "todo_list" "\0"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

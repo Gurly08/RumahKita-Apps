@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:rumakita_app2/data/models/berita_acara_models.dart';
 import 'package:rumakita_app2/presentation/widget/theme.dart';
+=======
+import 'package:todo_list/data/models/berita_acara_models.dart';
+import 'package:todo_list/presentation/widget/theme.dart';
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 class BeritaacaraCard extends StatelessWidget {
   const BeritaacaraCard({super.key, required this.beritaacara});

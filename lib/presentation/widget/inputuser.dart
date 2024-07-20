@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
+<<<<<<< HEAD
 import 'package:intl/intl.dart'; 
 import 'package:rumakita_app2/data/models/pelayanansurat_models.dart';
 import 'package:rumakita_app2/presentation/page/home.dart';
 import 'package:rumakita_app2/presentation/widget/theme.dart';
 
+=======
+import 'package:intl/intl.dart'; // Pastikan Anda mengimpor intl untuk formatter
+import 'package:todo_list/data/models/pelayanansurat_models.dart';
+import 'package:todo_list/presentation/pages/home.dart';
+import 'package:todo_list/presentation/widget/theme.dart';
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
 
 class InputLayanansurat extends StatefulWidget {
   const InputLayanansurat({required this.selectedSurat, super.key});

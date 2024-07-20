@@ -108,10 +108,17 @@ packages:
     dependency: "direct main"
     description:
       name: google_fonts
+<<<<<<< HEAD
       sha256: "5b1726fee554d1cc9db1baef8061b126567ff0a1140a03ed7de936e62f2ab98b"
       url: "https://pub.dev"
     source: hosted
     version: "6.2.0"
+=======
+      sha256: b1ac0fe2832c9cc95e5e88b57d627c5e68c223b9657f4b96e1487aa9098c7b82
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.1"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
   graphs:
     dependency: transitive
     description:
@@ -260,10 +267,17 @@ packages:
     dependency: transitive
     description:
       name: platform
+<<<<<<< HEAD
       sha256: "9b71283fc13df574056616011fb138fd3b793ea47cc509c189a6c3fa5f8a1a65"
       url: "https://pub.dev"
     source: hosted
     version: "3.1.5"
+=======
+      sha256: "12220bb4b65720483f8fa9450b4332347737cf8213dd2840d8b2c823e47243ec"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.4"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -390,5 +404,10 @@ packages:
     source: hosted
     version: "1.0.4"
 sdks:
+<<<<<<< HEAD
   dart: ">=3.3.0 <4.0.0"
   flutter: ">=3.16.6"
+=======
+  dart: ">=3.3.1 <4.0.0"
+  flutter: ">=3.19.2"
+>>>>>>> 7cb3adbe34f0c90e7e8ba986e6d46a8f87dd4066
